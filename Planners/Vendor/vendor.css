@@ -1,0 +1,189 @@
+#vendor_planner{
+    background-color: #e5fdce;
+
+}
+#carouselExampleIndicators2 >.carousel-inner> .carousel-item> img{
+    height: 100vh;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+#carouselExampleIndicators2 .overlay1{    
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.6);
+   opacity: 0.5;    
+}
+#carouselExampleIndicators2 .content1 {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: translate(-50%,-50%);
+        color: #fff;   
+}
+#carouselExampleIndicators2 .content1 h6{
+        font-size: 4rem;
+        font-weight: 600;
+}
+#carouselExampleIndicators2 .content1 #btn{
+        position: relative;
+        background:none;
+        top:10px;
+        border: 2px solid #f92d45; 
+        color: #f92d45;
+        font-family: 'Albert Sans', sans-serif;
+        min-width: 150px;
+        border-radius: 3px;
+        letter-spacing: 1.2px;
+        padding: 10px 10px;
+        transition: color .4s white;
+        font-size: 1.2rem;
+        font-weight: bolder;
+}
+#carouselExampleIndicators2 .content1 #btn:hover{
+    color: #fff;
+    letter-spacing: 1.5px;
+
+}
+#carouselExampleIndicators2 .content1 #btn::before{
+
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #f92d45;
+    z-index: -1;
+    transition: transform .7s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(.5,1.6,.4,.7);
+}
+#carouselExampleIndicators2 .content1 #btn::before{
+    transform: scaleX(0);
+}
+#carouselExampleIndicators2 .content1 #btn:hover::before{
+    transform: scaleX(1);
+
+
+}
+
+
+/* ***************************************     VENDORS PRODUCTS VIEW    ******************************************* */
+
+form  #search{
+    box-shadow: none;
+    border: 1px solid black;
+  }
+  #navbar{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
+  padding:  5px 0;
+  }
+  #location{
+  color:#0275d8;
+  }
+  #btn{   
+  margin-left: 1rem;
+  }
+  
+  /******************* FILTER *******************************************/
+#vendor_types h5{
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 30px 40px;
+  /* float: right; */
+
+}
+  #vendor_types #type_btn{
+       position:relative ;
+    padding:5px 10px ;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 1.1px;  
+    font-size: 14px;    
+    border: none;
+    color:#058240 ;
+    background-color: #eefce2;
+    border:2px solid #058240;
+    border-radius: 3px;
+
+}
+#vendor_types #type_btn:hover{
+        transform: scale(1,1.1);
+}
+
+  #vendor_filter
+{
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+  #head
+  {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;   
+  }
+  #pricefilter #title ,#capacityfilter #title ,#typefilter #title{
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 15px 30px;
+  }
+  #price,#capacity,#type{
+      list-style-type: none;
+  }
+  #price li,#capacity li,#type li{
+  font-family: 'Albert Sans', sans-serif;
+  margin-top: 5px;
+  letter-spacing: .5px;
+  }
+  
+  #price li .form-check-input , #capacity li .form-check-input , #type li .form-check-input {
+         border: 1px solid black;
+  }
+  
+  #price  input[type="checkbox"]:checked ,#capacity  input[type="checkbox"]:checked, #type  input[type="checkbox"]:checked{
+    border: 1px solid #0275d8;
+  }
+
+
+  /***************** VENDOR CARD *********************************************************************/
+  
+#vendorplanner {
+      overflow-x: hidden;
+}
+#vendorcard .card 
+{
+    height: 50vh;
+    border: #1bbd32 1px solid;
+}
+#vendorcard .card img
+{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;    
+}  
+#vendorcard .card .card-title{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;  
+}
+#vendorcard .card .card-address{
+    text-transform: capitalize;
+    font-size: 14px;   
+    font-family: 'Kanit', sans-serif;
+}
+#vendorcard .card button{
+    background-color: #f92d45;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
+#vendorcard .card #vendorprice
+{
+    font-size: 18px;  
+    float: right;
+    font-family: 'Chivo Mono', monospace;
+    letter-spacing: 1.1px;
+}
+#vendorcard .card #vendorprice span{
+    font-size: 14px;
+}

@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Chivo+Mono:wght@300&family=Comfortaa:wght@600&family=Forum&family=Julius+Sans+One&family=Kanit:wght@300&family=Lexend+Deca:wght@500&family=Marko+One&family=Montserrat&family=Orbitron:wght@500&display=swap');
+
+#boutique_page{
+background-color: #e5fdce;
+overflow-x: hidden;
+}
+
+/* ***************************** BRIDE & GROOM COLLECTION */
+#bride_collections,#groom_collections
+{
+    padding-top: 1rem;
+}
+.boutique_arrow
+{
+    position: absolute;
+    top: 43%;
+    padding: 5px 4px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0,0, 0.55);
+
+}
+
+#bride_collections .card ,#groom_collections .card
+{
+    position: relative;
+    height: 300px;
+}
+#bride_collections .card img ,#groom_collections .card img{   
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#bride_collections .card-body,#groom_collections .card .card-body 
+{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    background-color:  rgba(0, 0, 0, .70);
+    overflow: hidden;
+    height:0px;
+    transition: .3s ease;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
+
+}
+#bride_collections .card:hover .card-body,#groom_collections .card:hover .card-body{
+    height: 100%;
+    visibility: visible;
+}
+#bride_collections .card .card-body ,#groom_collections .card .card-body
+{
+    text-align: center;
+    color: whitesmoke;
+}
+#bride_collections .card button,#groom_collections .card button{
+    color: black;
+    padding: 5px  10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Albert Sans', sans-serif;
+}
+#bride_collections_title ,#groom_collections_title
+{
+    margin-top: 2rem;
+    padding: 1rem 5px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1.2px;
+}
+/* ************************** GATEGROIES  ******************************** */
+#boutique_categroies{
+        margin:2rem 0 5rem 0;
+        /* background-color: red; */
+        /* position: absolute; */
+}
+#boutique_categroies_title
+{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+#boutique_categroies .card{
+        border: none;
+        height: 250px;
+        margin: 0 15px 0 15px;
+        border-radius: 50%;
+}
+#boutique_categroies .card img{
+    height: 100%;
+    border-radius: 50%;
+}
+#boutique_categroies  h4{
+        padding: 15px 0 0 0;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        letter-spacing: 1.2px;
+        font-size: 20px;
+}
+#boutique_categroies #btn{
+    position:relative ;
+    padding:5px 10px ;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 1.1px;  
+    font-size: 14px;    
+    border: none;
+    color:#058240 ;
+    background-color: #eefce2;
+    border:2px solid #058240;
+    border-radius: 3px;
+}
+#boutique_categroies #btn:hover{
+    opacity: 1;
+    transform: scale(1,1.1);
+}
+.active1
+{
+    font-size: 15px !important;    
+    padding:7px 11px !important ;
+    color: #058240 !important;
+    background-color: #9cee8c !important;
+
+}
+/* ******************************   FILTER **************************** */
+#boutique_page #filter
+{
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#filter #pricefilter #title
+{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+#filter #pricefilter  li{
+    font-family: 'Albert Sans', sans-serif;
+}
+/* *********************************  PRODUCTS DETAILS   ******************************** */
+#Boutique_Products .card{
+    border: none;
+    height: 370px;
+    margin: 5px 0 5px 0;
+}
+#Boutique_Products .card img{
+    height: 77%;
+    object-fit: cover;
+}
+#Boutique_Products .card button{
+    border:none;
+    width: 45%;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 3px;
+    float: right;
+    font-family: 'Albert Sans', sans-serif;
+}
+#Boutique_Products .card #price{
+    width: 45%;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    font-family: 'Chivo Mono', monospace;
+}
+#Boutique_Products .card .card-title{
+    font-family: 'Montserrat', sans-serif;
+}
+/* *************************************   LOADMORE   ******************************************* */
+#Boutique_Products #loadmore{
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    border: #4b92ff solid 1px;
+    background-color:#b7e3ff;
+    color: #0856cf;
+    font-family: 'Albert Sans', sans-serif;
+    border-radius: 3px;
+}
+#Boutique_Products #loadmore:hover{
+color: #b7e3ff;
+background-color: #0856cf;
+}
+
+/* *********************    SHOE COLLECTIONS ******************************* */
+#shoe_collections #shoe_collections_title{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1.2px;
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    padding:7px 15px 5px 15px;
+    font-size: 25px;
+    margin: 0 15px 20px 18px;
+    border-radius: 5px;        
+} 
+#shoe_collections #shoe_collections_btn{
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    background-color: darkblue;
+    font-family: 'Albert Sans', sans-serif;
+    border-radius: 3px;
+    padding: 5px 8px;
+    float: right;
+    color: white;
+}
+#shoe_collections .card-body .card-title{       
+        padding: 0 5px;
+        margin-top: 5px;
+        font-family: 'Montserrat', sans-serif;
+
+}
+#shoe_collections .card-body .card-price
+{
+        font-family: 'Chivo Mono', monospace;
+        padding: 0 5px;
+        margin-top: 7px;
+        font-size: 17   px;
+        
+}

@@ -1,0 +1,155 @@
+#photo_video_grapher{
+    margin-top: 4rem;
+}
+#photo_video_grapher #images_set 
+{
+    position: relative;
+    width: 16%;
+}
+#photo_video_grapher #images_set1 
+{
+    position: relative;
+    width: 16%;
+    left: 16px;
+}
+#photo_video_grapher #images_set img
+{
+    margin: 2rem 0 0 ;
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    transition: transform .5s ease; /* Animation */
+
+}
+#photo_video_grapher #images_set1 img
+{
+    margin: 1rem 0 0 ;
+    width: 100%;
+    height: 350px;
+    /* box-shadow: 10px 15px 10px -15px rgba(0, 0, 0, 0.20); */
+    /* box-shadow: 10px 15px 10px -15px rgb(231, 17, 17); */
+    box-shadow: rgb(255, 0, 0) 0px 3px 8px;
+    transition: transform .5s ease; /* Animation */
+    border-radius: 5px;
+
+}
+#photo_video_grapher #images_set1 img:hove{
+    transform: scale(1.1,1);
+    box-shadow: rgb(255, 0, 0) 0px 3px 18px;
+}
+
+/* #photo_video_grapher #wedding_shoot .part1{
+    border: 2px solid royalblue;
+} */
+
+#photo_video_grapher #wedding_shoot h3
+{
+    font-family: 'Orbitron', sans-serif;
+    color: #f92d45;
+    margin: 2rem 0;
+}
+#photo_video_grapher #wedding_shoot .card
+{
+    border: none;
+    margin: 2rem 1rem;
+    padding: 10px 1rem 5px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.20);
+}
+#photo_video_grapher #wedding_shoot .card .form-group p
+{
+    position: relative;
+    top:7px;
+    font-size: 18px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#photo_video_grapher #wedding_shoot .card input[type="date"]{
+    margin: 0 0 0 15px;
+    border:2px solid gray;
+    border-top: 0px;
+    border-right:0px;
+    border-left: 0px;
+    width: 50%;
+    box-shadow: none;
+    border-radius: 0px;
+}
+input[type="text"]
+{
+    margin: 0 0 0 15px;
+    border:2px solid gray;
+    border-top: 0px;
+    border-right:0px;
+    border-left: 0px;
+    width: 50%;
+    box-shadow: none;
+    border-radius: 0px;
+    
+}
+/* #photo_video_grapher #wedding_shoot .card input:focus{
+    border: #f92d45 2px solid;
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+input[type="number"]
+{
+    width: 30%;
+    border-radius: 0px;
+    box-shadow: none;
+}
+#pre_shoot #switch
+{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    float: right;
+}
+/* input[type="radio"]
+{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+} */
+
+.form-group .btn{
+    border-radius:0px;
+    border: #f92d45 2px solid;
+    background-color: #f92d45 !important;
+}
+
+#photo_video_grapher #wedding_shoot .card #icon
+{
+    font-size: 20px;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+#photo_video_grapher #wedding_shoot .card h6
+{   
+    padding: 0px 10px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+
+}
+#part2 
+{
+    /* padding: 55px; */
+    margin: 2px soild red;
+
+}
+#wedding_shoot .part2 input[type="checkbox"]{
+    position: relative;
+    left: 5px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: #f92d45;
+    cursor: pointer;
+    }
+#wedding_shoot .part2 #video
+{
+    position: relative;
+    top:2px;
+    left: 5px;
+}
